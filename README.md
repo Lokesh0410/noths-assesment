@@ -7,22 +7,6 @@ This repository implements an event-driven architecture using AWS EventBridge, S
 - [Terraform](https://www.terraform.io/downloads.html) installed.
 - AWS credentials configured.
 
-## Steps to Deploy
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-org>/eventbridge-integration-project.git
-
-
-2. Import pre-provisioned resources:
-
-cd eventbridge-integration-project
-./scripts/import_resources.sh
-
-3. Deploy the infrastructure:
-
-./scripts/apply.sh
-
 ### Modules Used
 
 aws_sqs_queue: Provisions the SQS queue.
