@@ -2,22 +2,6 @@
 
 This repository implements an event-driven architecture using AWS EventBridge, SQS, and SNS. It provisions missing resources and connects pre-provisioned resources using Terraform.
 
-## Project Structure
-
-eventbridge-integration-project/
-├── main.tf              # Entry point for the Terraform configuration
-├── variables.tf         # Input variables for the project
-├── outputs.tf           # Outputs of the project
-├── sqs.tf               # SQS queue resource definition
-├── pipe.tf              # EventBridge pipes resource definitions
-├── rule.tf              # CloudWatch Event Rule definitions
-├── import.tf            # Resource definitions for pre-provisioned imports
-├── scripts/             # Scripts for managing infrastructure
-│   ├── import_resources.sh  # Script to import pre-provisioned resources
-│   ├── apply.sh             # Helper script for applying Terraform
-└── README.md            # Documentation for the project
-
-
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) installed.
