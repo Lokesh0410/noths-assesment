@@ -2,6 +2,9 @@
 
 This repository implements an event-driven architecture using AWS EventBridge, SQS, and SNS. It provisions missing resources and connects pre-provisioned resources using Terraform.
 
+Steps followed from repo: 
+https://github.com/notonthehighstreet/team-pre-interview-technical-task
+
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) installed.
